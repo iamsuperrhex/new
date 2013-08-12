@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+
+
+
+<link rel="stylesheet" href="css/design.css" />
+<link rel="stylesheet" href="themes/A-F.min.css" />
+<link rel="stylesheet" href="css/1.css" />
+<script src="js/2.js"></script>
+<script src="js/3.js"></script>
+		<!--slider> -->
+	<link rel="stylesheet" href="nun/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="nun/css/flexslider.css" type="text/css" media="all" />
+	<script src="nun/js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="nun/js/functions.js" type="text/javascript"></script>
+	
+	
+		<!-- </slider> -->
+  <script>
+  $( "#popupPanel" ).on({
+    popupbeforeposition: function() {
+        var h = $( window ).height();
+
+        $( "#popupPanel" ).css( "height", h );
+    }
+});
+		
+  </script>
+</head>
+<body>
+
+
+
+<!--Front Page-->
+<div data-role="page" data-theme="a" id="first" class="content">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ 
+<img src="images/header.png" height="40" width="150">
+</div>
+
+<div data-role="content" align="center">
+
+	<img src="images/imash.png" height="180" width="200" id="pics">
+	</br>
+	
+	 <a href="#main" data-transition="flow"><img src="images/enter.png" height="40" width="150"></a>
+	<div data-role="footer" div style="min-height: 5px;" data-position="fixed" data-theme="b">
+	<font size="1">Alrights Reserved 2013</font>
+</div>
+
+
+    </div>
+</div>
+
+<!--Main Page-->
+<div data-role="page" data-theme="e" id="main">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content">
+  
+   <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#panel1" data-transition="fade" data-theme="c" data-icon="info" data-inline="true"  >
+                      <font size="1px"> College </font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#updates" data-transition="fade" data-theme="c" data-icon="grid">
+                          <font size="1px"> Update </font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#port" data-transition="fade" data-theme="c" data-icon="refresh">
+                            <font size="1px"> Portal </font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+  
+ <!-- <div data-role="controlgroup" data-type="horizontal" align="center" id="content">
+    <a href="#panel1" data-role="button" data-theme="c" class="my-buttonssss"><font size="5px">My College</font></a>
+    <a href="#" data-role="button" data-theme="c" class="my-buttonsss" data-transition="flip"><font size="5px">UPDATES</font></a>
+    <a href="#portal" data-role="button" data-theme="c" class="my-buttonss"><font size="5px">PORTAL</font></a>
+</div>-->
+
+ <!--<img src="images/college.png" height="80" width="150" id="content"><img src="images/update.png" height="80" width="150" id="content"><img src="images/portal.png" height="80" width="150" id="content">-->
+
+<center>
+
+
+    <!-- slider -->
+				<div class="slider-holder">
+					<span class="slider-t"></span>
+					<span class="slider-b-left"></span>
+					<span class="slider-b-center"></span>
+					<span class="slider-b-right"></span>
+					<span class="slider-l"></span>
+					<span class="slider-r"></span>
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="slide-cnt">
+					<img src="css/images/001.jpg" alt="" />
+					<h4>ccs week </h4>
+								</div>
+							</li>
+							
+							<li>
+						
+								<div class="slide-cnt">
+									<img src="css/images/002.jpg" alt="" />
+								</div>
+							</li>
+							
+							<li>
+						
+								<div class="slide-cnt">
+									<img src="css/images/003.jpg" alt="" />
+								</div>
+							</li>
+							
+								
+						</ul>
+					</div>
+				</div>
+				<!-- end of slider-holder --></br>
+
+ 
+ <font size="2" face="Century Gothic"> Gordon College is a local institution in Olongapo City It was founded on February 24, 1999 and consists of Five Colleges including the College of Computer Studies that offers computer-related courses such as BSIT, BSCS and ACT with a population of 608 students
+located at Old Hospital Road East Tapinac, Olongapo City, Philippines.</font></center></br>
+
+  </div>
+ 
+  <!-- defaultpanel My College -->
+    <div data-role="panel" id="panel1" data-theme="b" align="center">
+ 
+      <div class="panel-content" align="center">
+	 <center><img src="images/ccs.png" height="80" width="80"></center>
+        <h1 align="center"><font size="4px" face="Century Gothic">MY COLLEGE</font></h1></br>
+         <a href="#vmg" data-theme="e" data-transition="flow" class="panelbutton"><img src="images/buttons/vmg.png" width="110" height="40"></a></br>
+		  <a href="#courses" data-theme="e" data-transition="flow"><img src="images/buttons/courses.png" width="110" height="40"></a></br>
+		   <a href="#admission" data-theme="e" data-transition="flow"><img src="images/buttons/but.png" width="110" height="40"></a></br>
+		   
+		<a href="#faculty"  data-theme="e" data-transition="flow"><img src="images/buttons/faculty.png" width="110" height="40"></a></br>
+		 <a href="#calendar" data-theme="e" data-transition="flow"><img src="images/buttons/acad.png" width="110" height="40"></a></br>
+		 <a href="#partners" data-theme="e" data-transition="flow"><img src="images/buttons/partners.png" width="110" height="40"></a></br>
+		<a href="#contact" data-theme="e" data-transition="flow"><img src="images/buttons/contact.png" width="110" height="40"></a></br>
+				<a href="#about" data-theme="e" data-transition="flow"><img src="images/buttons/about.png" width="110" height="40"></a></br>
+		
+      </div><!-- /content wrapper for padding -->
+ 
+    </div><!-- /defaultpanel -->
+	
+	
+	
+	
+	
+</div>
+
+  <!-- panel end -->
+  
+  
+  <!-- CALENDAR-->
+<div data-role="page" data-theme="e" id="calendar">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <h3>Academic Year 2013-2014</h3></br>
+  
+  <!--MONTHS-->
+  <div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>MAY</h4>
+    <p class="cformat">MAY 6-31: Registration/Enrollment Period</p>
+</div>
+  
+  <div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>JUNE</h4>
+    <p class="cformat">JUNE 3: Start of Classes</p>
+	<p class="cformat">JUNE 5: General Student Orientation</p>
+	<p class="cformat">JUNE 12: INDEPENDENCE DAY</p>
+	<p class="cformat">JUNE 14: CCS General Orientation with parents</p>
+	<p class="cformat">JUNE 14: Last Day of Dropping of Subjects with Refund</p>
+
+</div>
+  
+  <div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>JULY</h4>
+    <p class="cformat">JULY 12: Last Day of Dropping of Subjects with Permission</p>
+	<p class="cformat">JULY 15-20: PRELIM EXAMINATIONS</p>
+	<p class="cformat">JULY 22: CCS ACQUAINTANCE PARTY</p>
+	
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>AUGUST</h4>
+	 <p class="cformat">AUGUST 17-18: WebGeek</p>
+    <p class="cformat">AUGUST 26: NATIONAL HEROES DAY</p>
+	<p class="cformat">AUGUST 27-31: MIDTERM EXAMINATIONS</p>
+	<p class="cformat">AUGUST 29-30: SAITE 2013</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>SEPTEMBER</h4>
+    <p class="cformat">SEPTEMBER 3-6: ANNUAL SPORTFEST</p>
+	<p class="cformat">SEPTEMBER 17-19: Y4IT</p>
+	<p class="cformat">SEPTEMBER: ACCREDITATION</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>OCTOBER</h4>
+    <p class="cformat">OCTOBER 8-12: FINAL EXAMINATIONS</p>
+	<p class="cformat">OCTOBER 13: SEMESTRAL BREAK</p>
+	<p class="cformat">OCTOBER 14-18: IT Olympiad (Training) </p>
+	 <p class="cformat">OCTOBER 23-31: Registration/Enrollment Period</p>
+	
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>NOVEMBER</h4>
+    <p class="cformat">NOVEMBER 1: ALL SAINT'S DAY</p>
+	 <p class="cformat">NOVEMBER 4: START OF CLASSES</p>
+	  <p class="cformat">NOVEMBER 15: Last Day of Dropping of Subjects with Refund</p>
+	   <p class="cformat">NOVEMBER 22: IT Olympiad (Actual)</p>
+	    <p class="cformat">NOVEMBER 30: BONIFACIO DAY</p>
+		 <p class="cformat">NOVEMBER: HACKATHON</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>DECEMBER</h4>
+    <p class="cformat">DECEMBER 6: Last Day of Dropping of Subject with Permission</p>
+	<p class="cformat">DECEMBER 9-14: Second Semester Prelim Examinations</p>
+	<p class="cformat">DECEMBER 15- January 1: CHRISTMAS VACATION</p>
+	<p class="cformat">DECEMBER 25: CHRISTMAS DAY</p>
+	<p class="cformat">DECEMBER 30: RIZAL DAY/OLONGAPO CITY FIESTA</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>JANUARY</h4>
+    <p class="cformat">JANUARY 1: NEW YEAR</p>
+	<p class="cformat">JANUARY 2: Classes Resume</p>
+	<p class="cformat">JANUARY 22-24: CCS WEEK 2014</p>
+	<p class="cformat">JANUARY 30-31: SCITE 2014</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>FERBRUARY</h4>
+	<p class="cformat">FEBRUARY 3-8: Second Semester Midterm Examinations</p>
+	<p class="cformat">FEBRUARY 18-21: 15th Founding Anniversay Celebration</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>MARCH</h4>
+   <p class="cformat">MARCH 1-15: Final Examination(Graduating Students)</p>
+   <p class="cformat">MARCH 24-29: Final Examination (Non-graduating Students)</p>
+   <p class="cformat">MARCH: RECOGNITION</p>
+</div>
+
+<div data-role="collapsible" data-theme="c" data-content-theme="a" class="my-calendar">
+    <h4>APRIL</h4>
+    <p class="cformat">APRIL 2: COMMENCEMENT EXERCISES</p>
+	<p class="cformat">APRIL 3-11: Registration/Enrollement Period for Summer Class</p>
+	<p class="cformat">APRIL 9: ARAW NG KAGITINGAN</p>
+	<p class="cformat">APRIL 14: Start of Classes</p>
+	<p class="cformat">APRIL 17: MAUNDY THURSDAY</p>
+	<p class="cformat">APRIL 18: GOOD FRIDAY</p>
+</div>
+  <!--END-->
+	 
+	
+</div>
+  
+  </div>
+ 
+  <!--PARTNERS-->
+<div data-role="page" data-theme="e" id="partners">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+
+<img src="images/partners.png" height="240" width="160">
+
+	 
+	
+</div>
+  
+  </div>
+  <!--PARTNERS END-->
+  
+ <!--VMG-->
+<div data-role="page" data-theme="e" id="vmg">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+     <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#vmg" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Vision</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#mission" data-transition="flip" data-theme="c" >
+                          <font size="1px">Mission</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals" data-transition="fade" data-theme="c">
+                            <font size="1px">Goals</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+  
+    <!-- <div data-role="controlgroup" data-type="horizontal" align="center" >
+    <a href="#vmg" data-role="button" data-theme="c" class="my-buttonssss"><font size="5px">VISION</font></a>
+    <a href="#mission" data-role="button" data-theme="c" class="my-buttonsssz" data-transition="flip"><font size="5px">MISSION</font></a>
+    <a href="#goals" data-role="button" data-theme="c" class="my-buttonss" data-transition="flow"><font size="5px">GOALS</font></a>	
+    </div>-->
+<img src="images/vision.png" height="300" width="200">
+
+	
+	
+</div>
+  
+  </div>
+  <!--VMG end-->
+  
+  
+  
+   <!--Mission-->
+<div data-role="page" data-theme="e" id="mission">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+     <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#vmg" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Vision</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#mission" data-transition="flip" data-theme="c" >
+                          <font size="1px">Mission</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals" data-transition="fade" data-theme="c">
+                            <font size="1px">Goals</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+  
+    <!-- <div data-role="controlgroup" data-type="horizontal" align="center" >
+    <a href="#vmg" data-role="button" data-theme="c" class="my-buttonssss"><font size="5px">VISION</font></a>
+    <a href="#mission" data-role="button" data-theme="c" class="my-buttonsssz" data-transition="flip"><font size="5px">MISSION</font></a>
+    <a href="#goals" data-role="button" data-theme="c" class="my-buttonss" data-transition="flow"><font size="5px">GOALS</font></a>	
+    </div>-->
+	</br>
+<img src="images/mission.png" height="300" width="200">
+
+	
+	
+</div>
+  
+  </div>
+  <!--mission end-->
+  
+  <!--Goals-->
+  
+  <div data-role="page" data-theme="e" id="goals">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+     <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#vmg" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Vision</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#mission" data-transition="flip" data-theme="c" >
+                          <font size="1px">Mission</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals" data-transition="fade" data-theme="c">
+                            <font size="1px">Goals</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+		
+		
+		
+		
+	
+  
+    <!-- <div data-role="controlgroup" data-type="horizontal" align="center" >
+    <a href="#vmg" data-role="button" data-theme="c" class="my-buttonssss"><font size="5px">VISION</font></a>
+    <a href="#mission" data-role="button" data-theme="c" class="my-buttonsssz" data-transition="flip"><font size="5px">MISSION</font></a>
+    <a href="#goals" data-role="button" data-theme="c" class="my-buttonss" data-transition="flow"><font size="5px">GOALS</font></a>	
+    </div>-->
+<img src="images/goals.png" height="300" width="200"></br>
+<div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#goals" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Previous</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals1" data-transition="flip" data-theme="c" >
+                          <font size="1px">Next</font>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+
+	
+	
+</div>
+  
+  </div>
+  
+  
+    <div data-role="page" data-theme="e" id="goals1">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+     <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#vmg" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Vision</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#mission" data-transition="flip" data-theme="c" >
+                          <font size="1px">Mission</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals" data-transition="fade" data-theme="c">
+                            <font size="1px">Goals</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+		
+	
+  
+    <!-- <div data-role="controlgroup" data-type="horizontal" align="center" >
+    <a href="#vmg" data-role="button" data-theme="c" class="my-buttonssss"><font size="5px">VISION</font></a>
+    <a href="#mission" data-role="button" data-theme="c" class="my-buttonsssz" data-transition="flip"><font size="5px">MISSION</font></a>
+    <a href="#goals" data-role="button" data-theme="c" class="my-buttonss" data-transition="flow"><font size="5px">GOALS</font></a>	
+    </div>-->
+<img src="images/goals1.png" height="300" width="200"></br>
+
+		<div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#goals" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Previous</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#goals1" data-transition="flip" data-theme="c" >
+                          <font size="1px">Next</font>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+	
+</div>
+  
+  </div>
+  
+  
+  
+  
+  
+  <!--goals end-->
+  
+   <!--Courses Offered-->
+<div data-role="page" data-theme="e" id="courses">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+
+  
+        <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#courses" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">ACT</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bsit" data-transition="flow" data-theme="c" >
+                          <font size="1px">BSIT</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bscs" data-transition="flip" data-theme="c">
+                            <font size="1px">BSCS</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	
+ <img src="images/act.png" height="300" width="200">
+	
+	
+</div>
+  
+  </div>
+  
+ 
+   <div data-role="page" data-theme="e" id="bsit">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+
+  
+  
+  
+        <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#courses" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">ACT</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bsit" data-transition="flip" data-theme="c" >
+                          <font size="1px">BSIT</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bscs" data-transition="flow" data-theme="c">
+                            <font size="1px">BSCS</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	
+ <img src="images/bsit.png" height="300" width="200">
+	
+	
+	
+</div>
+  
+  </div>
+  
+  
+  
+   <div data-role="page" data-theme="e" id="bscs">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+
+  
+        <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#courses" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">ACT</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bsit" data-transition="flip" data-theme="c" >
+                          <font size="1px">BSIT</font>
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#bscs" data-transition="flow" data-theme="c">
+                            <font size="1px">BSCS</font>
+                    </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	
+ <img src="images/bscs.png" height="300" width="200">
+	
+	
+	
+</div>
+  
+  </div>
+  
+  
+  
+  <!--Courses Offered end-->
+  
+  
+    <!--faculty-->
+<div data-role="page" data-theme="e" id="faculty">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <h3>GC-CCS FACULTY</h3>
+  
+    
+	 
+	
+</div>
+  
+  </div>
+  <!--faculty end-->
+  
+
+  
+      
+  
+      <!--Contact Us-->
+<div data-role="page" data-theme="e" id="contact">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <h3>CONTACT US</h3>
+ 
+  <img src="images/contacts.png" height="300" width="200">
+    
+	 
+	
+</div>
+  
+  </div>
+  <!--Contact end-->
+  
+  
+      <!--About-->
+<div data-role="page" data-theme="e" id="about">
+  <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+ 
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <h3>ABOUT</h3>
+<img src="images/imash.png" height="180" width="180"></br>
+     <font size="2" face="Century Gothic"> CAP (CCS Access Point) is a cross platform mobile student portal created for Gordon College - College of Computer Studies. It was created to provide communication medium that is beneficial among the Faculty Members, Parents and especially the Students and to promote innovation for the college by providing convenient way of viewing their grades and portable reference of college information.</font></center>
+	</br>
+	  <a href="#team" data-transition="flow"><img src="images/team.png" height="40" width="120"></a>
+	 
+</div>
+	
+</div>
+  
+  </div>
+  
+  
+  <div data-role="page" data-theme="e" id="team">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+ 
+  <img src="images/ithree.png" height="280" width="220">
+	  
+</div>
+  
+  </div>
+  <!--About end-->
+  
+  
+     <!--Admission-->
+<div data-role="page" data-theme="e" id="admission">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#admission" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Requirements</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#procedure" data-transition="flip" data-theme="c" >
+                          <font size="1px">Procedures</font>
+                    </a>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+		
+     
+	</br>
+	<img src="images/admission.png" height="300" width="200">
+	 
+	
+</div>
+  
+  </div>
+
+</div>
+
+<div data-role="page" data-theme="e" id="procedure">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  
+     <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#admission" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Requirements</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#procedure" data-transition="flip" data-theme="c" >
+                          <font size="1px">Procedures</font>
+                    </a>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+		
+		
+	<img src="images/procedure1.png" height="300" width="200">
+	 
+		
+	<div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#procedure1" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Next</font>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+	
+</div>
+  
+  </div>
+  
+  <div data-role="page" data-theme="e" id="procedure1">
+ <div data-role="header" data-theme="b" div style="min-height: 20px;" align="center" data-position="fixed" data-position="fixed">
+ <!--<a href="#first" data-icon="home" data-transition="flow" data-inline="true" style="width: 30px; height: 30px"></a>-->
+<img src="images/header.png" height="40" width="150">
+</div>
+  <div data-role="content" align="center">
+  
+  <div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#admission" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Requirements</font>
+                    </a>
+                </li>
+                <li>
+                    <a href="#procedure" data-transition="flip" data-theme="c" >
+                          <font size="1px">Procedures</font>
+                    </a>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+		
+		
+	<img src="images/procedure2.png" height="300" width="200">
+	 
+		
+	<div data-role="navbar" data-iconpos="top" >
+            <ul>
+                <li>
+                    <a href="#procedure" data-transition="flow" data-theme="c" data-inline="true"  >
+                      <font size="1px">Previous</font>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+	
+</div>
+  
+  </div>
+
+</div>
+
+<!--admission end-->
+
+</body>
+</html>
